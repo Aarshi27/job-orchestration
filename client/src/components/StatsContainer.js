@@ -11,22 +11,22 @@ const StatsContainer = () => {
       title: 'pending applications',
       count: stats.pending || 0,
       icon: <FaSuitcaseRolling />,
-      color: '#e9b949',
-      bcg: '#fcefc7',
+      color: '#2cb1bc',
+      bcg: '#fff',
     },
     {
       title: 'interviews scheduled',
       count: stats.interview || 0,
       icon: <FaCalendarCheck />,
-      color: '#647acb',
-      bcg: '#e0e8f9',
+      color: '#2cb1bc',
+      bcg: '#fff',
     },
     {
       title: 'jobs declined',
       count: stats.declined || 0,
       icon: <FaBug />,
-      color: '#d66a6a',
-      bcg: '#ffeeee',
+      color: '#2cb1bc',
+      bcg: '#fff',
     },
   ]
 
